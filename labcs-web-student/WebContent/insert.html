@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+body {background-color: powderblue;
+background-image: url('clothes.jpg');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  text-align: center;}
+</style>
+
+<body>
+
+<form action="/labcs-web-student/DBClothInsertServlet" method="post">
+    <input type="text" name="cloth_no" placeholder="No of items"><br><br>
+    <input type="text" name="cloth_type" placeholder="Type"><br><br>
+    <input type="text" name="cloth_name" placeholder="Name"><br><br>
+    <input type="submit" value="Press Enter" style="background-color: RED; color: white;">
+    </form>
+
+</body>
+</html>
